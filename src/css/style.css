@@ -1,0 +1,139 @@
+body{
+    background: url(../image/fundo-site.png)  ;
+    font-family: 'Outfit', sans-serif;
+    min-height: 100vh;
+}
+
+.header{
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.header img{
+    max-width: 25px;
+    max-height: 25px;
+    margin-right: 15px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+} 
+
+.lista-pokemon{
+    width: 290px;
+    height: 480px;
+    position: relative;
+}
+
+
+.card .pokemon-image {
+    display: flex;
+}
+
+.card .pokemon-image img{
+    
+    max-height: 230px;
+}
+
+
+
+
+.card{
+    opacity: 0;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    background: url(../image/fundo-card-1.jpg) no-repeat;  
+    padding: 15px;
+    position: absolute;
+    border-radius: 10px;
+    transition: opacity 0.5s ease-in-out;
+   
+}
+
+.btn-seta{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 0;
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+.card.selecionado{
+    opacity: 1;
+    z-index: 1;
+}
+
+
+.card .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #A09EAB;
+    padding: 10px 5px;
+    color: aliceblue;
+    border-radius: 10px 23px;
+    
+}
+
+.card .title p{
+    background-color: #38343C;
+    padding: 7px;
+    border-radius: 40px;
+   
+}
+
+
+.btn-seta.direita{
+    transform: rotateY(180deg);
+}
+
+
+.btn-seta:hover{
+    background-color: #8460fc;
+    transition: 0.3s;
+}
+
+.card.fundocharizard{
+    background: url(../image/fundo-card-2.jpg);
+}
+
+.card.fundomewtwo{
+    background: url(../image/fundo-card-3.jpg);
+}
+
+.card .descrição{
+    background-color: rgba(255, 255, 255, 0.6);
+    border-bottom-left-radius: 10px ;
+    word-wrap: break-word;
+}
+
+.card .descrição .titulo{
+    background-color: #333;
+    color: #f1ecff;
+    font-size: 15px;
+    padding: 12px;
+  
+}
+
+.card .descrição .texto{
+   font-size: 14px;
+   padding: 12px;
+   text-align: justify;
+   max-height: 115px;
+   overflow-y: auto;
+   letter-spacing: 0px;
+}
+
+

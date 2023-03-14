@@ -1,0 +1,30 @@
+@media (max-width:600px){
+    main{
+        gap: 5px;
+        padding: 0px 15px;
+    }
+
+.btn-seta{
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .pokemon-image img{
+    max-height: 230px;
+    min-width: 100px;
+    max-width: 230px;
+}
+
+.card .title h2{
+    font-size: 18px;
+}
+
+.card .title p{
+    font-size: 14px;
+    padding: 8px;  
+} 
+}
