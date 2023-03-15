@@ -1,5 +1,5 @@
 body{
-    background: url(../image/pokemonland.webp) ;
+    background: url(../image/pokemonland.webp);
     background-size: cover;
     backdrop-filter: blur(10px);
     font-family: 'Outfit', sans-serif;
